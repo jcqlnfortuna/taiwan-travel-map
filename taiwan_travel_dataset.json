@@ -1,0 +1,36 @@
+{
+  "conversion_rate": 1.845,
+  "nodes": [
+    { "id": "taoyuan_airport",      "name_en": "Taiwan Taoyuan International Airport", "lat": 25.0797, "lng": 121.2342, "type": "airport"    },
+    { "id": "taipei_main",          "name_en": "Taipei Main Station",                  "lat": 25.0478, "lng": 121.5170, "type": "transport"  },
+    { "id": "hotel",                "name_en": "Hotel (Changsha St, Wanhua)",           "lat": 25.0419, "lng": 121.5075, "type": "hotel"      },
+    { "id": "ximending",            "name_en": "Ximending Walking District",            "lat": 25.0422, "lng": 121.5078, "type": "attraction" },
+    { "id": "red_house",            "name_en": "The Red House",                         "lat": 25.0420, "lng": 121.5067, "type": "landmark"   },
+    { "id": "cks_memorial",         "name_en": "Chiang Kai-shek Memorial Hall",         "lat": 25.0345, "lng": 121.5216, "type": "landmark"   },
+    { "id": "national_taiwan_museum","name_en": "National Taiwan Museum",               "lat": 25.0433, "lng": 121.5153, "type": "museum"     },
+    { "id": "east_gate_3",          "name_en": "Taipei Main Station East Gate 3",       "lat": 25.0476, "lng": 121.5172, "type": "transport"  },
+    { "id": "shifen_waterfall",     "name_en": "Shifen Waterfall",                      "lat": 25.0429, "lng": 121.7859, "type": "nature"     },
+    { "id": "shifen_old_street",    "name_en": "Shifen Old Street",                     "lat": 25.0433, "lng": 121.7771, "type": "attraction" },
+    { "id": "houtong",              "name_en": "Houtong Cat Village",                   "lat": 25.0870, "lng": 121.8270, "type": "attraction" },
+    { "id": "jiufen",               "name_en": "Jiufen Old Street",                     "lat": 25.1099, "lng": 121.8442, "type": "attraction" },
+    { "id": "sun_yat_sen",          "name_en": "Sun Yat-sen Memorial Hall",             "lat": 25.0401, "lng": 121.5603, "type": "landmark"   },
+    { "id": "taipei_101",           "name_en": "Taipei 101",                            "lat": 25.0339, "lng": 121.5645, "type": "landmark"   }
+  ],
+  "routes": [
+    { "from": "taoyuan_airport",   "to": "taipei_main",         "transport": "airport_mrt", "fare_twd": 160, "time_min": 35  },
+    { "from": "taipei_main",       "to": "hotel",               "transport": "walk",        "fare_twd": 0,   "time_min": 12  },
+    { "from": "hotel",             "to": "ximending",           "transport": "walk",        "fare_twd": 0,   "time_min": 5   },
+    { "from": "hotel",             "to": "red_house",           "transport": "walk",        "fare_twd": 0,   "time_min": 5   },
+    { "from": "ximending",         "to": "cks_memorial",        "transport": "mrt",         "fare_twd": 20,  "time_min": 10  },
+    { "from": "cks_memorial",      "to": "national_taiwan_museum","transport": "walk",      "fare_twd": 0,   "time_min": 8   },
+    { "from": "national_taiwan_museum","to": "hotel",           "transport": "walk",        "fare_twd": 0,   "time_min": 10  },
+    { "from": "taipei_main",       "to": "shifen_waterfall",    "transport": "bus",         "fare_twd": 50,  "time_min": 90  },
+    { "from": "shifen_waterfall",  "to": "shifen_old_street",   "transport": "walk",        "fare_twd": 0,   "time_min": 10  },
+    { "from": "shifen_old_street", "to": "houtong",             "transport": "train",       "fare_twd": 15,  "time_min": 20  },
+    { "from": "houtong",           "to": "jiufen",              "transport": "bus",         "fare_twd": 25,  "time_min": 40  },
+    { "from": "jiufen",            "to": "taipei_main",         "transport": "train",       "fare_twd": 76,  "time_min": 65  },
+    { "from": "hotel",             "to": "sun_yat_sen",         "transport": "mrt",         "fare_twd": 25,  "time_min": 15  },
+    { "from": "sun_yat_sen",       "to": "taipei_101",          "transport": "mrt",         "fare_twd": 20,  "time_min": 5   },
+    { "from": "taipei_main",       "to": "taoyuan_airport",     "transport": "airport_mrt", "fare_twd": 160, "time_min": 35  }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tile_provider": "CartoDB Positron",
+  "tile_url": "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+  "min_zoom": 9,
+  "max_zoom": 20,
+  "poi_zoom_threshold": 13,
+  "bounds": [
+    [24.85,121.30],
+    [25.25,122.00]
+  ],
+  "rotation_enabled": true
+}

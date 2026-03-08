@@ -1,0 +1,19 @@
+Always follow AGENTS.md instructions.
+
+Use taiwan_travel_dataset.json as the single source of truth.
+
+Never generate new coordinates or routes unless explicitly requested.
+
+When editing code:
+• modify only the relevant module
+• avoid regenerating entire files
+• keep code modular
+
+Optimize for minimal token output.
+
+Transport color coding must be:
+
+MRT = blue
+Train = green
+Bus = orange
+Walking = yellow

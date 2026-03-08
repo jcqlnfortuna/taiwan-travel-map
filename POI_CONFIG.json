@@ -1,0 +1,17 @@
+{
+  "atm": {
+    "osm_tag": "amenity=atm",
+    "icon": "atm_icon"
+  },
+  "easycard_reload": {
+    "osm_tag": "shop=convenience",
+    "brands": [
+      "7-Eleven",
+      "FamilyMart",
+      "Hi-Life",
+      "OK"
+    ],
+    "icon": "easycard_icon"
+  },
+  "search_radius_m": 2000
+}
